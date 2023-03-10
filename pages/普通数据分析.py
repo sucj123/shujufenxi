@@ -15,7 +15,7 @@ option1 = st.sidebar.radio(
 if option1 == '数据透视分析':
         st.markdown('<p class="font">请上传您的数据集，该应用会进行数据透视分析报告</p>', unsafe_allow_html=True)
         def imageShow():
-            image = Image.open("zp.jpg")  # 在未导入excel时，展示图片
+            image = Image.open("riluo.jpg")  # 在未导入excel时，展示图片
             st.image(image, clamp=False,
                      channels="RGB", output_format="auto", use_column_width=True)
         file = st.file_uploader("上传分析文件", type="xlsx")
