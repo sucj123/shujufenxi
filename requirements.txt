@@ -56,7 +56,6 @@ plotly==5.13.0
 plotly-express==0.4.0
 prettytable==3.6.0
 protobuf==3.20.3
-py2exe==0.13.0.0
 pyarrow==11.0.0
 pydantic==1.10.4
 pydeck==0.8.0
